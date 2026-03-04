@@ -4,8 +4,6 @@ A simple tool for reflecting on decisions.
 
 ## Legal
 
-Privacy Policy  
-/ privacy
+[Privacy Policy]({{ site.baseurl }}/privacy)
 
-Terms of Use  
-/ terms
+[Terms of Use]({{ site.baseurl }}/terms)
