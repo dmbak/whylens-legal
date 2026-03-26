@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QuietNap Support</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8fb;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --accent: #3b82f6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1115;
+        --card: #171a21;
+        --text: #f3f4f6;
+        --muted: #9ca3af;
+        --line: #2a2f3a;
+        --accent: #60a5fa;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+    p { margin: 0 0 16px; }
+    .muted { color: var(--muted); }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    ul {
+      margin: 8px 0 20px 20px;
+      padding: 0;
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>WhyLens Support</h1>
+      <p class="muted">Help with purchases, restore issues, bug reports, and general feedback.</p>
+
+      <p>
+        Contact support at:
+        <a href="mailto:dplusa.ca@gmail.com">dplusa.ca@gmail.com</a>
+      </p>
+
+      <p>When reporting an issue, it helps to include:</p>
+      <ul>
+        <li>Your device model</li>
+        <li>iPhone version</li>
+        <li>WhyLens version</li>
+        <li>A short description of the issue</li>
+      </ul>
+
+      <p>
+        Privacy Policy:
+        <a href="./privacy-policy.html">View Privacy Policy</a>
+      </p>
+
+      <div class="footer">
+        © WhyLens
+      </div>
+    </section>
+  </main>
+</body>
+</html>
